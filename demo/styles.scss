@@ -1,9 +1,6 @@
 @import "../colours";
 @import "../helpers";
 
-@include guss-generate-colour-classes($property: background, $prefix: b-);
-
-
 html {
     font: 200 1em/1.5 'Helvetica Neue', sans-serif;
     color: #ffffff;
@@ -22,6 +19,9 @@ a {
 .clear {
     margin: 2em;
 }
+
+@include guss-generate-colour-classes($property: background, $prefix: b-);
+
 [class^=b-] {
     display: inline-block;
     width: 12em;
