@@ -102,6 +102,7 @@ html {
   color: #ffffff;
   background: #545454;
   padding: 1em 1em 3em;
+  -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-align: center; }
 
