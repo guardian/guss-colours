@@ -2,7 +2,8 @@
   "name": "guss-colours",
   "version": "0.1.0",
   "main": [
-   "_colours.scss"
+    "_colours.scss",
+    "_helpers.scss"
   ],
   "ignore": [
     "CHANGELOG.md"
