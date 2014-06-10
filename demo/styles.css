@@ -28,6 +28,9 @@ a {
 .b-error {
   background: #d61d00; }
 
+.b-success {
+  background: #4a7801; }
+
 .b-neutral-1 {
   background: #333333; }
 
@@ -172,6 +175,20 @@ a {
     content: "error"; }
   .b-error:after {
     content: "#d61d00"; }
+
+.b-success {
+  text-shadow: 0 0 3px #000000;
+  font-weight: 200;
+  color: #ffffff; }
+  .b-success:before, .b-success:after {
+    font-size: 1.125em;
+    width: 90%;
+    display: inline-block; }
+  .b-success:before {
+    margin-top: calc(50% - 1.5em);
+    content: "success"; }
+  .b-success:after {
+    content: "#4a7801"; }
 
 .b-neutral-1 {
   text-shadow: 0 0 3px #000000;
