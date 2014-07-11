@@ -1,3 +1,7 @@
+## 1.1.0 (2014-07-11)
+
+Colour names and values are selectable.
+
 ## 1.0.0 (2014-06-11)
 
 Public release
