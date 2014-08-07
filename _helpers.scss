@@ -9,7 +9,7 @@
  * @return {Color | Null}
  */
 @function guss-colour($name, $palette: $guss-colours) {
-    @return map-get($guss-colours, $name);
+    @return map-get($palette, $name);
 }
 
 /**
