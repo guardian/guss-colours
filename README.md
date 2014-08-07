@@ -6,8 +6,8 @@ Part of the [Guss](https://github.com/guardian/guss) collection.
 
 ## Installation
 
-```
-bower install guss-colours --save
+```bash
+$ bower install guss-colours --save
 ```
 
 ## Usage
