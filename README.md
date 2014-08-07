@@ -18,22 +18,22 @@ Use the Guss colour variables to declare app-specific global variables.
 @import 'path/to/_colours.scss';
 @import 'path/to/_helpers.scss';
 
-$c-brand: guss-color(guardian-brand);
+$c-brand: guss-colour(guardian-brand);
 
 a {
     color: $c-brand;
 }
 ```
 
-## Contribute
+## Contributing
 
-### Add a new colour
+### 1. Edit or add a new colour
 
-1. Add `my-new-colour: #xxxxxx` to the `$guss-colours` map in `_colours.scss`
+1. Edit an existing colour or add `my-new-colour: #xxxxxx` to the `$guss-colours` map in `_colours.scss`
 1. Add `<div class="b-my-new-colour"></div>` to `demo/index.html`
 1. Compile styles using `sass demo/styles.scss:demo/styles.css`
 
-### Commit and deploy
+### 2. Commit and deploy
 
 ```bash
 $ git commit -am "Commit message"
