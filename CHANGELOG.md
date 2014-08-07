@@ -1,3 +1,8 @@
+## 1.1.2 (2014-08-07)
+
+Fix a bug where the `$palette` argument in the `guss-colour()` helper
+would not be taken into account.
+
 ## 1.1.1 (2014-08-07)
 
 Inline documentation uses SassDoc notation
