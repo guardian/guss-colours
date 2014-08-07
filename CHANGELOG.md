@@ -1,3 +1,7 @@
+## 1.1.1 (2014-08-07)
+
+Inline documentation uses SassDoc notation
+
 ## 1.1.0 (2014-07-11)
 
 Colour names and values are selectable.
