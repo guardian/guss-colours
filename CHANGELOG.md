@@ -1,3 +1,8 @@
+## 1.2.0 (2014-08-07)
+
+- Updates `guardian-brand`
+- Adds `guardian-brand-dark`
+
 ## 1.1.2 (2014-08-07)
 
 Fix a bug where the `$palette` argument in the `guss-colour()` helper
