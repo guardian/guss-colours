@@ -16,7 +16,6 @@ Use the Guss colour variables to declare app-specific global variables.
 
 ```scss
 @import 'path/to/_colours.scss';
-@import 'path/to/_helpers.scss';
 
 $c-brand: guss-colour(guardian-brand);
 
