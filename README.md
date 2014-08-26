@@ -30,7 +30,7 @@ a {
 
 1. Edit an existing colour or add `my-new-colour: #xxxxxx` to the `$guss-colours` map in `_colours.scss`
 1. Add `<div class="b-my-new-colour"></div>` to `demo/index.html`
-1. Compile styles using `sass demo/styles.scss:demo/styles.css`
+1. Compile styles using `sass demo/demo.scss:demo/demo.css`
 
 ### 2. Commit and deploy
 

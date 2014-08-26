@@ -1,5 +1,5 @@
 /**
- * Get a colour from a given colour palette
+ * Get a colour from a given colour palette.
  * 
  * @param {String} $name                    - colour to get
  * @param {Map}    $palette ($guss-colours) - palette
@@ -15,20 +15,20 @@
 }
 
 /**
- * Generate helper classes for a given colour palette
- * Outputs rules such as: `.c-red { color: red; }`
+ * Generate helper classes for a given colour palette  
+ * Outputs rules such as: `.c-red { color: red; }`.
  *
  * @param {Map}    $palette  ($guss-colours) - palette
- * @param {String} $prefix   (c-)            - prefix
- * @param {String} $property (color)         - property
+ * @param {String} $prefix   ("c-")          - prefix
+ * @param {String} $property ("color")       - property
  *
  * @requires {variable} guss-colours
  *
  * @group colours
  */
-@mixin guss-generate-colour-classes($palette: $guss-colours, $prefix: c-, $property: color) {
+@mixin guss-generate-colour-classes($palette: $guss-colours, $prefix: "c-", $property: "color") {
     @each $name, $color in $palette {
-        .#{$prefix}#{$name} {
+        .#{unquote($prefix + $name)} {
             #{$property}: $color;
         }
     }

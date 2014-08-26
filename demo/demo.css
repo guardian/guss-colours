@@ -6,7 +6,7 @@
  * @group colours
  */
 /**
- * Get a colour from a given colour palette
+ * Get a colour from a given colour palette.
  * 
  * @param {String} $name                    - colour to get
  * @param {Map}    $palette ($guss-colours) - palette
@@ -18,12 +18,12 @@
  * @group colours
  */
 /**
- * Generate helper classes for a given colour palette
- * Outputs rules such as: `.c-red { color: red; }`
+ * Generate helper classes for a given colour palette  
+ * Outputs rules such as: `.c-red { color: red; }`.
  *
  * @param {Map}    $palette  ($guss-colours) - palette
- * @param {String} $prefix   (c-)            - prefix
- * @param {String} $property (color)         - property
+ * @param {String} $prefix   ("c-")          - prefix
+ * @param {String} $property ("color")       - property
  *
  * @requires {variable} guss-colours
  *
