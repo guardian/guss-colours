@@ -1,8 +1,6 @@
 {
   "name": "guss-colours",
   "main": [
-    "_colours.scss",
-    "_colours.helpers.scss",
-    "_colours.config.scss"
+    "_colours.scss"
   ]
 }
